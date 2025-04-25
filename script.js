@@ -7,7 +7,8 @@ const urlsToCache = [
     "/script/sws.js",
     "/favicon.ico/android-icon-192x192.png",
     "/favicon.ico/favicon-192x192.png",
-    "/favicon.ico/favicon-512x512.png"
+    "/favicon.ico/favicon-512x512.png",
+    "/products.json",
 ];
 
 self.addEventListener("install", (event) => {
