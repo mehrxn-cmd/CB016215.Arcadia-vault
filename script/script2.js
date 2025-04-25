@@ -16,7 +16,7 @@ const elements = {
 window.addEventListener('DOMContentLoaded', init);
 
 function init() {
-    fetch('/products.json')
+    fetch('/CB016215.Arcadia-vault/products.json')
         .then(res => res.json())
         .then(data => {
             products = data;
