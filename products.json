@@ -3,210 +3,210 @@
         "id": "cpu1",
         "name": "Intel i5",
         "price": 200,
-        "image": "/images/images 2 fin/i5.webp",
+        "image": "images/images 2 fin/i5.webp",
         "category": "Processors"
     },
     {
         "id": "cpu2",
         "name": "Intel i7",
         "price": 320,
-        "image": "/images/images 2 fin/i7.webp",
+        "image": "images/images 2 fin/i7.webp",
         "category": "Processors"
     },
     {
         "id": "cpu3",
         "name": "AMD Ryzen 7 5700G",
         "price": 220,
-        "image": "/images/images 2 fin/ryzen 7 5700.webp",
+        "image": "images/images 2 fin/ryzen 7 5700.webp",
         "category": "Processors"
     },
     {
         "id": "cpu4",
         "name": "AMD Ryzen 7 3800x",
         "price": 330,
-        "image": "/images/images 2 fin/ryzen 7 3800.webp",
+        "image": "images/images 2 fin/ryzen 7 3800.webp",
         "category": "Processors"
     },
     {
         "id": "cpu5",
         "name": "Intel i9",
         "price": 450,
-        "image": "/images/images 2 fin/i9.webp",
+        "image": "images/images 2 fin/i9.webp",
         "category": "Processors"
     },
     {
         "id": "cpu6",
         "name": "AMD Ryzen 7 5800x",
         "price": 800,
-        "image": "/images/images 2 fin/ryzen 7 5800x.webp",
+        "image": "images/images 2 fin/ryzen 7 5800x.webp",
         "category": "Processors"
     },
     {
         "id": "gpu1",
         "name": "NVIDIA RTX 3060",
         "price": 400,
-        "image": "/images/images 2 fin/MSI-RTX-3060.webp",
+        "image": "images/images 2 fin/MSI-RTX-3060.webp",
         "category": "Graphic Cards"
     },
     {
         "id": "gpu2",
         "name": "NVIDIA GTX 1660 SUPER",
         "price": 600,
-        "image": "/images/images 2 fin/gtx 1660 super.webp",
+        "image": "images/images 2 fin/gtx 1660 super.webp",
         "category": "Graphic Cards"
     },
     {
         "id": "gpu3",
         "name": "NVIDIA RTX 3080",
         "price": 850,
-        "image": "/images/images 2 fin/rtx 3080.webp",
+        "image": "images/images 2 fin/rtx 3080.webp",
         "category": "Graphic Cards"
     },
     {
         "id": "gpu4",
         "name": "AMD RX 6600",
         "price": 350,
-        "image": "/images/images 2 fin/rx 6600.webp",
+        "image": "images/images 2 fin/rx 6600.webp",
         "category": "Graphic Cards"
     },
     {
         "id": "gpu5",
         "name": "AMD RX 6700",
         "price": 450,
-        "image": "/images/images 2 fin/rx 6700.webp",
+        "image": "images/images 2 fin/rx 6700.webp",
         "category": "Graphic Cards"
     },
     {
         "id": "gpu6",
         "name": "AMD RX 6900",
         "price": 700,
-        "image": "/images/images 2 fin/RX-6900.webp",
+        "image": "images/images 2 fin/RX-6900.webp",
         "category": "Graphic Cards"
     },
     {
         "id": "mb1",
         "name": "ASUS B550",
         "price": 150,
-        "image": "/images/images 2 fin/ASUS B550.webp",
+        "image": "images/images 2 fin/ASUS B550.webp",
         "category": "Motherboards"
     },
     {
         "id": "mb2",
         "name": "ASUS Z590",
         "price": 220,
-        "image": "/images/images 2 fin/rog z590 .webp",
+        "image": "images/images 2 fin/rog z590 .webp",
         "category": "Motherboards"
     },
     {
         "id": "mb3",
         "name": "Gigabyte B450",
         "price": 130,
-        "image": "/images/images 2 fin/gigabyte b450.webp",
+        "image": "images/images 2 fin/gigabyte b450.webp",
         "category": "Motherboards"
     },
     {
         "id": "mb4",
         "name": "MSI X570",
         "price": 240,
-        "image": "/images/images 2 fin/MSI X570 .webp",
+        "image": "images/images 2 fin/MSI X570 .webp",
         "category": "Motherboards"
     },
     {
         "id": "mb5",
         "name": "ASRock Z690",
         "price": 280,
-        "image": "/images/images 2 fin/Z690 Steel Legend.webp",
+        "image": "images/images 2 fin/Z690 Steel Legend.webp",
         "category": "Motherboards"
     },
     {
         "id": "mb6",
         "name": "Gigabyte A520",
         "price": 110,
-        "image": "/images/images 2 fin/a520.webp",
+        "image": "images/images 2 fin/a520.webp",
         "category": "Motherboards"
     },
     {
         "id": "ram1",
         "name": "Corsair 8GB RAM",
         "price": 70,
-        "image": "/images/images 2 fin/corsair 8gb.webp",
+        "image": "images/images 2 fin/corsair 8gb.webp",
         "category": "Memory (RAM)"
     },
     {
         "id": "ram2",
         "name": "G.Skill 8GB RAM",
         "price": 75,
-        "image": "/images/images 2 fin/G.SKILL-8gb.webp",
+        "image": "images/images 2 fin/G.SKILL-8gb.webp",
         "category": "Memory (RAM)"
     },
     {
         "id": "ram3",
         "name": "HyperX 8GB RAM",
         "price": 72,
-        "image": "/images/images 2 fin/hyper x 8gb.webp",
+        "image": "images/images 2 fin/hyper x 8gb.webp",
         "category": "Memory (RAM)"
     },
     {
         "id": "ram4",
         "name": "Corsair 16GB RAM",
         "price": 130,
-        "image": "/images/images 2 fin/corsair 16gb.webp",
+        "image": "images/images 2 fin/corsair 16gb.webp",
         "category": "Memory (RAM)"
     },
     {
         "id": "ram5",
         "name": "G.Skill 16GB RAM",
         "price": 135,
-        "image": "/images/images 2 fin/hyperx 16gb.webp",
+        "image": "images/images 2 fin/hyperx 16gb.webp",
         "category": "Memory (RAM)"
     },
     {
         "id": "ram6",
         "name": "HyperX 16GB RAM",
         "price": 132,
-        "image": "/images/images 2 fin/hyperx 16gb.webp",
+        "image": "images/images 2 fin/hyperx 16gb.webp",
         "category": "Memory (RAM)"
     },
     {
         "id": "ssd1",
         "name": "Samsung 1TB SSD",
         "price": 120,
-        "image": "/images/images 2 fin/samsung 1tb ssd.webp",
+        "image": "images/images 2 fin/samsung 1tb ssd.webp",
         "category": "Storage Devices"
     },
     {
         "id": "ssd2",
         "name": "WD Blue 1TB SSD",
         "price": 115,
-        "image": "/images/images 2 fin/wd-blue 1tb ssd.webp",
+        "image": "images/images 2 fin/wd-blue 1tb ssd.webp",
         "category": "Storage Devices"
     },
     {
         "id": "ssd3",
         "name": "Crucial 1TB SSD",
         "price": 110,
-        "image": "/images/images 2 fin/Crucial 1tb ssd.webp",
+        "image": "images/images 2 fin/Crucial 1tb ssd.webp",
         "category": "Storage Devices"
     },
     {
         "id": "ssd4",
         "name": "Samsung 2TB SSD",
         "price": 200,
-        "image": "/images/images 2 fin/samsung 2tb ssd.webp",
+        "image": "images/images 2 fin/samsung 2tb ssd.webp",
         "category": "Storage Devices"
     },
     {
         "id": "ssd5",
         "name": "WD Black 2TB SSD",
         "price": 210,
-        "image": "/images/images 2 fin/WD black 2tb ssd.webp",
+        "image": "images/images 2 fin/WD black 2tb ssd.webp",
         "category": "Storage Devices"
     },
     {
         "id": "ssd6",
         "name": "Seagate 1TB SSD",
         "price": 105,
-        "image": "/images/images 2 fin/seagate 1tb ssd.webp",
+        "image": "images/images 2 fin/seagate 1tb ssd.webp",
         "category": "Storage Devices"
     }
 ]
