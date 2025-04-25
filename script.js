@@ -1,9 +1,10 @@
-const CACHE_NAME = "my-pwa-cache-v1";
+const CACHE_NAME = "my-pwa-cache-v2";
 const urlsToCache = [
     "/",
     "/index.html",
-    "/Styling/style.css",
-    "/Scripts/scripts.js",
+    "/style/style.css",
+    "/script/script2.js",
+    "/script/sws.js",
     "/favicon.ico/android-icon-192x192.png",
     "/favicon.ico/favicon-192x192.png",
     "/favicon.ico/favicon-512x512.png"
