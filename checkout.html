@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style2.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body id="checkout-page">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="Arcadia Vault Logo">
+            </a>
+        </div>
+
+        <input type="checkbox" id="nav-toggle" hidden>
+
+        <ul class="nav-links">
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="upcoming.html">Upcoming Games</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Consoles & Peripherals</a>
+                <div class="dropdown-content">
+                    <a href="consoles.html">Consoles</a>
+                    <a href="peripherals.html">Peripherals</a>
+                </div>
+            </li>
+            <li><a href="games.html">Games</a></li>
+            <li> <a href="order.html">Order Page</a></li>
+            <li><a href="faq.html">FAQ & Queries</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <!-- Hamburger Icon -->
+            <label for="nav-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+    </nav>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main id="checkout-main">
+        <section id="order-summary">
+            <h2>Order Summary</h2>
+            <table id="summary-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Subtotal</td>
+                        <td id="subtotal">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Shipping</td>
+                        <td id="shipping">$10.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Total</td>
+                        <td id="total">$0.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <form id="checkout-form">
+            <h2>Personal Details</h2>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+
+            <h2>Delivery Address</h2>
+            <input type="text" placeholder="Street Address" required>
+            <input type="text" placeholder="City" required>
+            <input type="text" placeholder="ZIP Code" required>
+
+            <h2>Payment Information</h2>
+            <input type="text" placeholder="Card Number" required>
+            <input type="text" placeholder="Cardholder Name" required>
+            <div style="display: flex; gap: 10px;">
+                <input type="month" placeholder="Expiry Date" required style="flex: 1;">
+                <input type="text" placeholder="CVV" required style="flex: 1;">
+            </div>
+
+            <button type="submit">Complete Purchase</button>
+        </form>
+        <div id="thank-you-msg"></div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><a href="#info@arcadiavault.com">info@arcadiavault.com</a></p>
+                <p><a href="tel:+94112425533">+94 11 242 5533</a></p>
+            </div>
+            <div class="footer-nav">
+                <div class="nav-column">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="upcoming.html">Upcoming Games</a></li>
+                    </ul>
+                </div>
+                <div class="nav-column">
+                    <ul>
+                        <li><a href="consoles.html">Consoles</a>
+                        <li><a href="peripherals.html">Peripherals</a>
+                        <li><a href="games">Games</a>
+                        <li><a href="faq.html">FAQ & Queries</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script/script2.js"></script>
+
+</body>
+
+</html>
