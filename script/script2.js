@@ -16,7 +16,7 @@ const elements = {
 window.addEventListener('DOMContentLoaded', init);
 
 function init() {
-    fetch('products.json')
+    fetch('/products.json')
         .then(res => res.json())
         .then(data => {
             products = data;
