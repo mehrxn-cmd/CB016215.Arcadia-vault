@@ -3,14 +3,14 @@
         "id": "cpu1",
         "name": "Intel i5",
         "price": 200,
-        "image": "images/images2fin/i5.webp",
+        "image": "images/images 2 fin/i5.webp",
         "category": "Processors"
     },
     {
         "id": "cpu2",
         "name": "Intel i7",
         "price": 320,
-        "image": "images/images2fin/i7.webp",
+        "image": "images/images 2 fin/i7.webp",
         "category": "Processors"
     },
     {
